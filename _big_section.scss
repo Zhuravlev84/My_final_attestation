@@ -1,0 +1,112 @@
+.price {
+    background: #f8f9ff;
+    background-image: url("img/price/background-bottom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1086px;
+}
+
+.price-text-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 286px;
+}
+
+.price-text-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #8794ba;
+    padding-top: 30px;
+    width: 650px;
+    margin-left: 267px;
+}
+
+.price__cards {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.card {
+    background: #0f1f4b;
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+    border-radius: 30px;
+    width: 340px;
+    height: 440px;
+    transition: $delay;
+}
+
+.card-top-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+.card-top-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #8794ba;
+    padding-top: 10px;
+}
+
+.card-splitter {
+    padding: 37px 60px 28px 60px;
+}
+
+.card-inner-price {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 35px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.card-inner-price span {
+    font-size: 30px;
+}
+
+.card-inner-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #8794ba;
+}
+
+.but-price {
+    color: #ffffff;
+    padding: 15px 83px;
+    border-radius: 68px;
+    background: none;
+    border: 1px solid #8794ba;
+    margin: 40px 67px;
+    cursor: pointer;
+}
+.card:hover .but-price {
+    background: #ef2a82;
+    color: #ffffff;
+    border: none;
+  }
+  
+  .card:hover {
+    background: #ffffff;
+  }
+  
+  .card:hover .card-inner-price {
+    color: #172755;
+  }
+  
+  .card:hover .card-top-title {
+    color: #172755;
+  }
